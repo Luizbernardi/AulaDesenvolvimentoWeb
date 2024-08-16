@@ -1,0 +1,63 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: initial;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+.blueFont {
+    color: #0075FF;
+
+
+}
+
+.blueFontTitle {
+    font-weight: bold;
+    color: #0075FF;
+}
+
+.centerText {
+    text-align: center;
+    color: #7D7987;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.centerTextTitle {
+    margin-top: 60px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+    text-shadow: 1px 2px 3px #7D7987;
+}
+
+.line {
+    height: 1px;
+    width: 40%;
+    background-color: #ECEFF2;
+    border: none;
+    position: fixed;
+    bottom: 80px;
+}
+
+.alignFooter {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 5%;
+}
+
+.alignFooter a {
+    margin: 0 10px;
+}
